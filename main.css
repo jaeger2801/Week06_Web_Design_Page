@@ -1,10 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap');
+
+
+
 .card {
     display: flex;
+    border-radius: 20px;
     margin: 50px;
     margin-right: 50px;
 }
 
-.image-is-4by3{
 
+.banner-image1{
+    height: 450px;
+    width: 580px;
 }
 
+
+.media1{
+    align-items: flex-start;
+    display: flex;
+    text-align: inherit;
+}
+
+
+.media-content1{
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    text-align: inherit;
+    vertical-align: middle;
+}
+
+
+.profile-image{
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+}
+
+.encabezado-formulario{
+    text-align: center;
+    font-family: 'Syncopate', sans-serif;
+    font-size: 40px;
+}
+
+.form{
+    background-color: rgb(241, 241, 241);
+    padding: 40px;
+    border-radius: 20px;
+    margin: 100px;
+    justify-content: center;
+}
